@@ -1,5 +1,5 @@
 // Replace your API_KEY Here...
-const API_KEY = "23d7e6515827456380a46ece11c012af";
+const API_KEY = "API_KEY";
 const recipeListElement = document.getElementById("recipe-list");
 
 async function getRecipes(){
