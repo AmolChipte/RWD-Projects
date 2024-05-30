@@ -1,0 +1,98 @@
+body{
+    font-family: "Open Sans", "MV Boli";
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url("bg-image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+    font-family: "Roboto";
+}
+
+.getData{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    display: inline-block;
+}
+
+#set{
+    background-color: rgb(132, 10, 197);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.getData{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255,0.1);
+}
+
+input{
+    max-width: 50px;
+    border-radius: 4px;
+    border-color:rgb(243, 242, 242) ;
+    background-color: #f9f9fc;
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+label{
+    color:white;
+    padding-bottom: 20px;
+}
+.timer{
+    padding: 75px;
+    background-color: white;
+    border-radius: 100%;
+    font-size: 100px;
+    color: #050582;
+}
+
+button{
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+    transition: opacity .3s ease-in-out;
+}
+
+button:hover{
+    opacity: .7;
+}
+
+.start{
+    background-color: green;
+}
+
+.stop{
+    background-color: rgb(219, 3, 3);
+}
+
+.reset{
+    background-color: blue;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(171, 236, 252,0.2);
+    color: rgb(255, 255, 255);
+    text-align: right;
+    padding-right: 25px;
+}
