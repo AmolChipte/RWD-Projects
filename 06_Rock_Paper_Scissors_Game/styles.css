@@ -1,0 +1,106 @@
+body{
+    font-family: "Open Sans", "MV Boli";
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url("Picture1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#container{
+    margin-left:800px;
+    margin-right:50px;
+    padding: 10px;
+}
+
+h1{
+    font-family: "Montserrat";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style:normal;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 50px;
+    color:white;
+}
+
+#title{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 25px;
+}
+
+p{
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+    text-align: center;
+    color: white;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    border-style: double;
+    border-color: white;
+    border-spacing: 10px;
+    border-radius: 3px;
+    font-size: 2rem;
+    margin: 0 .5rem;
+    padding: 0 .5rem;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    width:65px;
+    height: 65px;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+#rock{
+    background-color: red;
+}
+
+#paper{
+    background-color: green;
+}
+
+#scissor{
+    background-color: blue
+}
+
+#player-score{
+    color: #2196f3;
+}
+
+#computer-score{
+    color:#ff0000;
+}
+
+#footer {
+    position: fixed;
+    font-size: 15px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(171, 236, 252,0.2);
+    color: rgb(255, 255, 255);
+    text-align: right;
+    padding-right: 25px;
+}
+
+footer {
+    position: fixed;
+    font-size: 5px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(171, 236, 252,0.2);
+    color: rgb(255, 255, 255);
+    text-align: right;
+    padding-right: 25px;
+}
