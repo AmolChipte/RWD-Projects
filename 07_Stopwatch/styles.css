@@ -1,0 +1,80 @@
+body{
+    background-image: url("bg-image.jpg");
+    font-family: "Poppins","MV Boli", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow:hidden;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+#container{
+    width: 50%;
+    height: auto;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 6rem;
+    text-align: center;
+    margin: 20px;
+}
+#timer{
+    color: #fafa50;
+    font-size: 6rem;
+    font-weight: 700;
+    text-shadow: 2px 2px #ffffff;
+    padding: 30px;
+}
+
+button{
+    background-color: #f92672;
+    color: white;
+    transition: all .3s ease;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.75rem;
+    font-weight: bold;
+    padding: 1.5rem 4rem;
+    margin: 1rem;
+    cursor: pointer;
+    box-shadow:2px 2px 10px rgba(0,0,0,0.5);
+}
+
+button:hover{
+    background-color: #fd629b;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.8);
+}
+
+button[disabled]{
+    opacity: .5;
+    cursor: not-allowed;   
+}
+
+@media(max-width: 800px){
+    #timer{
+        font-size:4rem;
+        width:350px;
+    }
+    button{
+        font-size: 1.5rem;
+        padding: 1rem 2rem;
+    }
+}
+
+footer {
+    position: fixed;
+    font-size: 15px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(171, 236, 252,0.2);
+    color: rgb(255, 255, 255);
+    text-align: right;
+    padding-right: 25px;
+}
