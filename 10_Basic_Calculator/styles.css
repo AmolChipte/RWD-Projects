@@ -1,0 +1,90 @@
+body{
+    background-image: url("bg-image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1{
+    font-family: "MV Boli";
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    margin: 25px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.calculator{
+    background-color: rgba(242, 242, 242,0.5);
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    border: solid 1px #ccc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin-top: 40px;    
+}
+
+#result{
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2) inset;
+    border-radius: 5px;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+
+button{
+    border-radius: 3px;
+    border-style: none;
+    font-size: 24px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+}
+
+button:hover{
+    background-color: #ddd;
+}
+
+.clear{
+    background-color: red;
+    color: white;
+}
+
+.number, .decimal{
+    background-color: white;
+}
+
+.operator{
+    background-color: rgb(2, 2, 173);
+    color: white;
+}
+
+.equals{
+    background-color: #02b44f;
+    grid-row: span 3;
+    color: white;
+}
+
+footer {
+    font-family: "MV Boli";
+    position: fixed;
+    font-size: 15px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+    padding-right: 25px;
+}
