@@ -15,8 +15,6 @@ for(let i = 0; i < btnsElement.length; i++){
     })
 }
 
-// D2H Channel Remove : 9902899028;
-
 function clearResult(){
     inputFieldElement.value = "";
 }
