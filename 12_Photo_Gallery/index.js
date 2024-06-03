@@ -20,7 +20,7 @@ async function fetchImage() {
     await fetch(
       `https://api.unsplash.com/photos?per_page=${inputValue}&page=${Math.round(
         Math.random() * 1000
-      )}&client_id=c5rdsx6Z24ol_LecABF-0r86U98-h1CAHay25i3ae9Y`
+      )}&client_id=//YOUR ACCESS KEY HERE`
     ).then((res) =>
       res.json().then((data) => {
         if (data) {
