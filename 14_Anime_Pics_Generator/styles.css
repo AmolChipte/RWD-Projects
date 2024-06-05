@@ -50,6 +50,7 @@ body{
     margin: 20px;
     background-color: green;
     padding: 20px;
+    color: white;
     border-radius: 5px;
     font-size: 17px;
     font-weight: 600;
@@ -57,4 +58,15 @@ body{
 
 .anime-container{
     display: none;
+}
+
+footer {
+    font-family: "MV Boli";
+    position: fixed;
+    font-size: 15px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+    padding-right: 40px;
 }
