@@ -20,6 +20,4 @@ function calculateBMI(){
     }
 }
 
-
-
 btnElement.addEventListener("click", calculateBMI);
