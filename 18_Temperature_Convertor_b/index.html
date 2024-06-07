@@ -1,1 +1,30 @@
-Uploading Soon ...
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Convertor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Temperature Convertor</h1>
+        <div class="temp-container">
+            <label for="celsius">Celsius : </label>
+            <input onchange="computeTemp(event)" type="number" name="celsius" id="celsius" class="input" placeholder="Enter Temperature">
+        </div>
+        <div class="temp-container">
+            <label for="fahrenheit">Fahrenheit : </label>
+            <input onchange="computeTemp(event)" type="number" name="fahrenheit" class="input" id="fahrenheit" placeholder="Enter Temperature">
+        </div>
+        <div class="temp-container">
+            <label for="kelvin">Kelvin : </label>
+            <input onchange="computeTemp(event)" type="number" name="kelvin" class="input" id="kelvin" placeholder="Enter Temperature">
+        </div>
+    </div>
+    <footer><p>Created by Amol Chipte © 2024</p></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
