@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Body Mass Index (BMI) Calculator</h1>
+        <label for="height">Your Height (cm):</label>
+        <input type="number" name="height" class="input" id="height" placeholder="Enter your Height in cm" required>
+        <label for="weight">Your Weight (kg):</label>
+        <input type="number" name="weight" class="input" id="weight" placeholder="Enter your Weight in kg" required>
+        <button class="btn" id="btn">Compute BMI</button>
+        <label>Your BMI:</label>
+        <input type="number" class="input" id="bmi-result" disabled>
+        <label>Weight Condition: <span id="weight-condition"></span><label>
+    </div>
+    <footer><p>Created by Amol Chipte © 2024</p></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
