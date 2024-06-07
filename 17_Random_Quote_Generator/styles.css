@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to left bottom, lightpink, lightyellow);
+}
+
+.container{
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    width: 70%;
+    margin: 20px;
+    text-align: center;
+}
+
+#heading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+}
+
+.quote{
+    font-size: 30px;
+    font-weight: 500;
+    display: none;
+    font-family: "MV Boli";
+}
+
+.author{
+    font-size: 20px;
+    font-style:italic;
+    margin: 10px;
+}
+
+.btn{
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: rgb(250, 220, 182);
+    border-radius: 10px;
+    border-color: rgba(255,255,255,0.6);
+    width: 300px;
+}
+
+.btn:hover{
+    background-color: rgb(255, 201, 129);
+    box-shadow: 0 4px 4px rgba(0,0,0,0.3);
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+footer {
+    font-family: "MV Boli";
+    position: fixed;
+    font-size: 15px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+    padding-right: 40px;
+}
