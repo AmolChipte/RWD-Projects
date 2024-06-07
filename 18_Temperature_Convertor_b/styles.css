@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    background-image: url("bg-image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background: linear-gradient(to left bottom, lightgreen,lightpink); */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+
+.container{
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    width: 85%;
+    max-width: 600px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    font-size: 35px;
+}
+
+.temp-container{
+    width: 100%;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 16.5px;
+}
+
+.input{
+    width: 350px;
+    padding: 5px;
+    float: right;
+    outline: none;
+    background: rgba(255,255,255,0.3);
+    border-color: rgba(255,255,255,0.5);
+}
+
+.input::placeholder{
+    color:rgb(128, 128, 128);
+}
+
+footer {
+    font-family: "MV Boli";
+    position: fixed;
+    color: white;
+    font-size: 15px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+    padding-right: 40px;
+}
