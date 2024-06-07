@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    background-image: url("bg-image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: "MV Boli";
+}
+
+.container{
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.5);
+    margin: 5px;
+    width: 50%;
+}
+
+.heading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+label{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+
+.input{
+    border-radius: 5px;
+    padding: 10px 20px;
+    background: rgba(255,255,255,0.4);
+    border-color: rgba(255,255,255,0.5);
+    margin: 10px;
+}
+
+.btn{
+    background-color: lightgreen;
+    border-radius: 5px;
+    margin: 10px;
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    box-shadow: 0 0 4px rgba(255,255,255,0.3);
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn:hover{
+    box-shadow: 0 0 8px rgba(255,255,255,0.3);
+    transition: all 0.3s ease;
+    background-color: rgb(59, 240, 59);
+}
+
+#weight-condition{
+    font-family: "MV Boli";
+}
+
+footer {
+    font-family: "MV Boli";
+    position: fixed;
+    font-size: 15px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+    padding-right: 40px;
+}
