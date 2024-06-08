@@ -3,7 +3,7 @@ const worthInputElement = document.getElementById("worth-input");
 const currencyOutputElement = document.getElementById("currency-output");
 const worthOutputElement = document.getElementById("worth-output");
 const exchangeRateElement = document.getElementById("exchange-rate");
-const apiKey = "4601cbe6e02134e8c21f27d1";
+const apiKey = "//ENTER YOUR API KEY HERE";
 
 onChange()
 
