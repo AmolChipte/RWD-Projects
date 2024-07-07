@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-image: url("bg-image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-color: aliceblue; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn{
+    background-color: rgba(255, 192, 203,0.8);
+    font-size: 40px;
+    padding: 200px 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn span{
+    position: relative;
+    z-index: 1;
+}
+
+.btn::before{
+    content: "";
+    position: absolute;
+    background-color: rgba(255, 69, 0, 0.8);
+    width: 0;
+    height: 0;
+    left: var(--xPos);
+    top: var(--yPos);
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    transition: width 0.8s, height 0.8s;
+}
+
+.btn:hover::before{
+    width: 3000px;
+    height: 3000px;
+}
+
+footer {
+    font-family: "MV Boli";
+    position: fixed;
+    font-size: 15px;
+    color: white;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-right: 40px;
+}
