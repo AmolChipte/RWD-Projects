@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("bg-image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1{
+    margin: 30px;
+    text-align: center;
+    font-family: 'MV Boli';
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.color-container{
+    background-color: orange;
+    width: 225px;
+    height: 100px;
+    color: white;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-shadow: 2.5px 5px 10px rgba(0,0,0,0.9);
+    border-radius: 10px;
+    border: solid black 2px;
+}
+
+.color-container:hover{
+    transform: scale(1.05);
+    transition: transform 0.15s ease-in-out;
+}
+
+footer {
+    font-family: "MV Boli";
+    position: fixed;
+    font-size: 15px;
+    left: 0;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-right: 40px;
+}
