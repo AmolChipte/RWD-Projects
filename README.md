@@ -17,6 +17,3 @@ This project showcases a front-end web development example built using HTML, CSS
 
 **Contributing:**
 Feel free to fork, modify, and contribute to this project.
-
-**License:**
-MIT License
