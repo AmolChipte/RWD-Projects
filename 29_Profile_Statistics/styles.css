@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right bottom, lightblue, lightpink);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.heading{
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.stats-container{
+    background-color: rgba(252, 177, 16, 0.7);
+    font-family: 'MV Boli';
+    font-size: 18px;
+    font-weight: bold;
+    margin: 30px;
+    border: groove;
+    border-color:rgb(255, 255, 255);
+    border-radius: 10px;
+    min-width: 300px;
+    height: 150px;
+    position: relative;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+}
+
+@media(max-width: 500px){
+    body{
+        flex-direction: column;
+    }
+}
+
+.icon{
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.counter{
+    font-size: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 25px;
+}
+
+.stats-container h4{
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+footer {
+    font-family: "MV Boli";
+    position: fixed;
+    font-size: 15px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-right: 40px;
+}
