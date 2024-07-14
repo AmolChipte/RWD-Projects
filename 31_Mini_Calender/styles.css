@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: 'MV Boli';
+    background-color: rgb(21, 12, 75);
+}
+
+.calender-container{
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(255,255,255,0.8);
+    overflow: hidden;
+}
+
+.month-name{
+    margin: 0;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.day-name{
+    font-size: 20px;
+    color: darkgray;
+    padding-top: 15px
+}
+
+.day-number{
+    font-size: 50px;
+    margin: 0;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.year-number{
+    margin: 20px;
+    font-size: 20px;
+    color: darkgray;
+    font-weight: 500;
+}
+
+footer {
+    font-family: "MV Boli";
+    position: fixed;
+    font-size: 15px;
+    left: 0;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-right: 40px;
+}
