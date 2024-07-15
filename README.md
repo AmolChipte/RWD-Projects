@@ -3,9 +3,9 @@
 **IDE:** Visual Studio Code
 
 **Technologies:**
-**- HTML:** Used for structuring and organizing content
-**- CSS:** Used for styling and layout
-**- JavaScript:** Used for adding interactivity and dynamic effects
+**- 1. HTML:** Used for structuring and organizing content
+**- 2. CSS:** Used for styling and layout
+**- 3. JavaScript:** Used for adding interactivity and dynamic effects
 
 **About this Project:**
 This project showcases a front-end web development example built using HTML, CSS, and JavaScript. It demonstrates a range of techniques and best practices for building responsive, accessible, and engaging web experiences.
